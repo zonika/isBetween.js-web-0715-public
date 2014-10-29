@@ -1,12 +1,6 @@
 'use strict';
 
 describe('is_between', function() {
-
-  var is_between;
-  beforeEach(function() {
-    is_between = require('../lib/is_between');
-  });
-
   describe( "#is_between", function() {
     it("should return true if the number is between the two numbers", function() {
         expect(is_between(15, 12, 18)).toBe(true);
